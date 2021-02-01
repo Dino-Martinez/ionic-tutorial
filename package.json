@@ -2,6 +2,7 @@
   "name": "ionic-react",
   "version": "0.0.1",
   "private": true,
+  "homepage": "http://Dino-Martinez.github.io/ionic-tutorial",
   "dependencies": {
     "@capacitor/core": "2.4.6",
     "@ionic/react": "^5.0.7",
@@ -29,6 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
